@@ -1,2 +1,2 @@
-# python-escpos
-A Very light wrapper for an Epson ESC/POS Printer
+# Python simple ESC/POS
+A Very light simplified implementation for an Epson ESC/POS Printer
