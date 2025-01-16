@@ -1,6 +1,6 @@
 # Python Simple ESC/POS API
 
-This repository provides two main classes to simplify printing operations on an Epson TM-T20 (or compatible) thermal receipt printer over USB. It uses the [python-escpos](https://python-escpos.readthedocs.io/en/latest/) library under the hood to manage low-level printing commands.
+This repository provides two main classes to simplify printing operations on an Epson TM-T20 (or compatible) thermal receipt printer over USB. It uses the [pyescpos](https://pypi.org/project/PyESCPOS/) library under the hood to manage low-level printing commands.
 
 ---
 
@@ -30,7 +30,7 @@ The **POSPrinterGraphics** class builds on top of **POSPrinter**, buffering comm
 ## Requirements
 
 - **Python 3.7+** (due to type annotations and f-strings usage)
-- **python-escpos** (specifically, the [escpos](https://pypi.org/project/escpos/) package)
+- **python-escpos** (specifically, the [pyescpos](https://pypi.org/project/PyESCPOS/) package)
 - **libusb** (if you are using USB printers on some environments)
 
 ---
