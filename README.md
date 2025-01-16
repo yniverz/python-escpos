@@ -225,15 +225,3 @@ class POSPrinterGraphics:
 
 10. **print_table(data: list[tuple[Any, Any]], padding: int = 0)**  
     Buffers a simple table-like structure, aligning values according to the given width.
-
----
-
-## License
-
-This code is provided as-is under an open-source license (e.g., MIT). Feel free to modify and use it in your own projects. See the [LICENSE](LICENSE) file for details (if included).
-
----
-
-**Note**:  
-- For more robust or production-scale solutions, consider additional error handling, advanced formatting, or spooler integration.  
-- Refer to the [python-escpos docs](https://python-escpos.readthedocs.io/en/latest/) for in-depth configurations like character encoding, barcode printing, and more.
